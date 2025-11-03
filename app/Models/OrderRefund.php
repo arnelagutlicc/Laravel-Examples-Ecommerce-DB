@@ -28,4 +28,15 @@ class OrderRefund extends Model
             'processed_at' => 'datetime',
         ];
     }
+     public function orderReturn(): BelongsTo
+    {
+        return $this->belongsTo(OrderReturn::class);
+    }
+
+    protected function casts(): array
+    {
+        return [
+            'processed_at' => 'datetime',
+        ];
+    }
 }
