@@ -10,3 +10,15 @@ class EmailCampaignStatus extends Model
         'name',
     ];
 }
+class EmailCampaignStatus extends Model
+{
+    protected $fillable = [
+        'name',
+    ];
+}
+class EmailCampaignStatus extends Model
+{
+    protected $fillable = [
+        'name',
+    ];
+}
