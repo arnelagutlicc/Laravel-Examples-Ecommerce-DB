@@ -10,3 +10,10 @@ class OrderReturnStatus extends Model
         'name',
     ];
 }
+class OrderReturnStatus extends Model
+{
+    protected $fillable = [
+        'name',
+    ];
+}
+
