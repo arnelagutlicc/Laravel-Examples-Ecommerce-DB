@@ -21,3 +21,18 @@ class OrderReturn extends Model
         return $this->belongsTo(OrderItem::class);
     }
 }
+class OrderReturn extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'order_item_id',
+        'reason',
+        'status',
+    ];
+
+    public function orderItem(): BelongsTo
+    {
+        return $this->belongsTo(OrderItem::class);
+    }
+}
