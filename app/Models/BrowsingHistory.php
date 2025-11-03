@@ -32,4 +32,40 @@ class BrowsingHistory extends Model
             'viewed_at' => 'datetime',
         ];
     }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+    {
+        return [
+            'viewed_at' => 'datetime',
+        ];
+    }
+
 }
