@@ -23,3 +23,19 @@ class Order extends Model
         return $this->belongsTo(User::class);
     }
 }
+class Order extends Model
+{
+    use HasFactory;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'user_id',
+        'status',
+        'total_amount',
+    ];
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+}
