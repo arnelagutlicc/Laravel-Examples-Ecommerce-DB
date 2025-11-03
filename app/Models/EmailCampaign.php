@@ -15,7 +15,7 @@ class EmailCampaign extends Model
         'status',
         'sent_at',
     ];
-
+ 
     protected function casts(): array
     {
         return [
