@@ -24,6 +24,6 @@ class Coupon extends Model
         return [
             'valid_from' => 'datetime',
             'valid_to'   => 'datetime',
-        ];
+        ]; 
     }
 }
