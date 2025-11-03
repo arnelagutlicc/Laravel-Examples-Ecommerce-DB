@@ -10,3 +10,15 @@ class OrderRefundStatus extends Model
         'name',
     ];
 }
+class OrderRefundStatus extends Model
+{
+    protected $fillable = [
+        'name',
+    ];
+}
+class OrderRefundStatus extends Model
+{
+    protected $fillable = [
+        'name',
+    ];
+}
