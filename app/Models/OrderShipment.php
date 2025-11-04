@@ -31,4 +31,11 @@ class OrderShipment extends Model
             'delivered_at' => 'datetime',
         ];
     }
+    protected function casts(): array
+    {
+        return [
+            'shipped_at'   => 'datetime',
+            'delivered_at' => 'datetime',
+        ];
+    }
 }
