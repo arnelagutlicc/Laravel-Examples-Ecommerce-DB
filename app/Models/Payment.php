@@ -14,7 +14,7 @@ class Payment extends Model
         'order_id',
         'user_id',
         'amount',
-        'method',
+        'method',                
         'status',
         'processed_at',
     ];
