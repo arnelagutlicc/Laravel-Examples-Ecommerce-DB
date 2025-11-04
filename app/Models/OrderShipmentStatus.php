@@ -9,4 +9,5 @@ class OrderShipmentStatus extends Model
     protected $fillable = [
         'name',
     ];
-}
+} 
+
