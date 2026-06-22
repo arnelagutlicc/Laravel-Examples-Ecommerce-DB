@@ -26,6 +26,11 @@ class BrowsingHistory extends Model
         return $this->belongsTo(Product::class);
     }
 
+    public function product1(): BelongsTo
+    {
+        return $this->belongsTo(Product::class);
+    }
+
     protected function casts(): array
     {
         return [
