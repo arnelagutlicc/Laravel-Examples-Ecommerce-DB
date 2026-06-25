@@ -22,3 +22,56 @@ class CouponController extends Controller
 
     public function destroy(Coupon $coupon) {}
 }
+
+class CouponController1 extends Controller
+{
+    public function index() {}
+
+    public function create() {}
+
+    public function store(Request $request) {}
+
+    public function show(Coupon $coupon) {}
+
+    public function edit(Coupon $coupon) {}
+
+    public function update(Request $request, Coupon $coupon) {}
+
+    public function destroy(Coupon $coupon) {}
+}
+
+class CouponController2 extends Controller
+{
+    public function index() {}
+
+    public function create() {}
+
+    public function store(Request $request) {}
+
+    public function show(Coupon $coupon) {}
+
+    public function edit(Coupon $coupon) {}
+
+    public function update(Request $request, Coupon $coupon) {}
+
+    public function destroy(Coupon $coupon) {}
+}
+
+class CouponController3 extends Controller
+{
+    public function index() {}
+
+    public function create() {}
+
+    public function store(Request $request) {}
+
+    public function show(Coupon $coupon) {}
+
+    public function edit(Coupon $coupon) {}
+
+    public function update(Request $request, Coupon $coupon) {}
+
+    public function destroy(Coupon $coupon) {}
+}
+
+
