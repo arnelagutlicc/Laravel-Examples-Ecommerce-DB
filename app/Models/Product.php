@@ -40,3 +40,592 @@ class Product extends Model implements HasMedia
         return $this->hasMany(ProductVariant::class);
     }
 }
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
+class Product extends Model implements HasMedia
+{
+    use HasFactory;
+    use InteractsWithMedia;
+    use SoftDeletes;
+
+    protected $fillable = [
+        'vendor_id',
+        'name',
+        'description',
+        'price',
+        'quantity',
+        'status',
+    ];
+
+    public function vendor(): BelongsTo
+    {
+        return $this->belongsTo(Vendor::class);
+    }
+
+    public function reviews(): HasMany
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function productVariants(): HasMany
+    {
+        return $this->hasMany(ProductVariant::class);
+    }
+}
+
